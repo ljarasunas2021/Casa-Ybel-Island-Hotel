@@ -1,0 +1,157 @@
+body {
+  background-color: #d6ebff;
+}
+
+/* used for header at the top of each page*/
+h1 {
+  background-image: url(../images/shellsmall.jpg);
+  background-position: left;
+  background-color: #99ccff;
+  background-repeat: no-repeat;
+  color: #3399cc;
+  line-height: 250%;
+  height: 86px;
+  text-indent: 140px;
+}
+
+p {
+  font-size: 125%;
+}
+
+h2 {
+  font-style: oblique;
+  font-size: 175%;
+  text-align: center;
+  font-family: fantasy;
+}
+
+h3 {
+  font-style: oblique;
+  font-size: 175%;
+  text-align: center;
+}
+
+b {
+  font-size: 115%;
+}
+
+dt {
+  font-size: 145%;
+  font-family: fantasy;
+}
+
+dd {
+  font-size: 125%;
+}
+
+strong {
+  font-size: 115%
+}
+
+nav {
+  font-style: 150%;
+  font-family: Georgia, "Times New Roman", serif;
+  display: incline-block;
+}
+
+/* used for medium image on dining.html*/
+.medium-image {
+  max-height: 325px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* used for small image on rooms,amenities,contact.html*/
+.small-image {
+  max-height: 100%;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+div {
+  height: fit-content;
+}
+
+/*used for button on idex.html*/
+.button {
+    background-color: white;
+    border: none;
+    color: black;
+    border: 2px solid #3399cc;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+    margin-right: 41.5%;
+    margin-left: 41.5%;
+}
+
+/*allows the button to hcange color when hovering on it*/
+.button:hover {
+    background-color: #3399cc;
+    color: white;
+}
+
+/* used when you are on a page*/
+/* disables your page's nav menu*/
+.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+footer {
+  background-color: #99ccff;
+  line-height: 250%;
+  height: 86px;
+  text-indent: 140px;
+}
+
+/*background of page*/
+#pagewrapper {
+  width: 90%;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 0 20px 10px;
+  box-shadow: 5px 5px 5px #828282;
+}
+
+/* used for vid on index.html*/
+#firstVid  {
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  border-radius: 25px;
+  border-width: thick;
+}
+
+/* used to highlighttab of navbar your mouse hovers over*/
+#index {}
+
+#index:hover {
+    filter: grayscale(100%);
+}
+
+#rooms{}
+
+#rooms:hover {
+      filter: grayscale(100%);
+}
+
+#dining{}
+
+#dining:hover {
+      filter: grayscale(100%);
+}
+
+#contact{}
+
+#contact:hover {
+      filter: grayscale(100%);
+}
+
+#amenities{}
+
+#amenities:hover {
+    filter: grayscale(100%);
+}
