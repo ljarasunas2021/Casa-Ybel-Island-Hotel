@@ -9,9 +9,12 @@ h1 {
   background-color: #99ccff;
   background-repeat: no-repeat;
   color: #3399cc;
-  line-height: 250%;
+  line-height: 175%;
   height: 86px;
   text-indent: 140px;
+  font-style: italic;
+  font-size: 300%;
+  text-align: left;
 }
 
 p {
@@ -54,6 +57,10 @@ nav {
   display: incline-block;
 }
 
+ul {
+  padding-left: 10%
+}
+
 /* used for medium image on dining.html*/
 .medium-image {
   max-height: 325px;
@@ -75,30 +82,30 @@ div {
 
 /*used for button on idex.html*/
 .button {
-    background-color: white;
-    border: none;
-    color: black;
-    border: 2px solid #3399cc;
-    padding: 15px 32px;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: auto;
-    margin-right: 41.5%;
-    margin-left: 41.5%;
+  background-color: white;
+  border: none;
+  color: black;
+  border: 2px solid #3399cc;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: auto;
+  margin-right: 41.5%;
+  margin-left: 41.5%;
 }
 
 /*allows the button to hcange color when hovering on it*/
 .button:hover {
-    background-color: #3399cc;
-    color: white;
+  background-color: #3399cc;
+  color: white;
 }
 
 /* used when you are on a page*/
 /* disables your page's nav menu*/
 .disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 
 footer {
@@ -118,7 +125,7 @@ footer {
 }
 
 /* used for vid on index.html*/
-#firstVid  {
+#firstVid {
   margin-left: 12.5%;
   margin-right: 12.5%;
   border-radius: 25px;
@@ -129,29 +136,29 @@ footer {
 #index {}
 
 #index:hover {
-    filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
-#rooms{}
+#rooms {}
 
 #rooms:hover {
-      filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
-#dining{}
+#dining {}
 
 #dining:hover {
-      filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
-#contact{}
+#contact {}
 
 #contact:hover {
-      filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
-#amenities{}
+#amenities {}
 
 #amenities:hover {
-    filter: grayscale(100%);
+  filter: grayscale(100%);
 }
