@@ -7,21 +7,22 @@
   <meta content="text/html; charset=utf-8" />
   <title>Casa Ybel Island Hotel</title>
   <link rel="shortcut icon" href="images/shell.ico" type="image/x-icon">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
   <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script type="text/javascript" src="./js/script.js" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-</script>
+  <!-- script for jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="./js/script.js" />
+  </script>
 
   <!-- link to pagetemplate.css.  Put after bootstrap to get rid of formatting errors with bootstrap -->
   <link rel="stylesheet" href="css/pagetemplate.css">
 
-  </head>
+</head>
 
 <body>
   <div id="pagewrapper">
@@ -46,11 +47,13 @@
 
             <dt><strong> Casa Ybel Island Beach Hotel </strong></dt> <br>
             <dd>
-              <li> Directions/Contact Page </li>
-              <li>Casa Ybel Island Beach Hotel </li>
-              <li>3431 Gulfview Drive </li>
-              <li>Ybel Island, FL 33957 </li>
-              <li>Book online or call: (800) 221-6577 </li>
+              <ul>
+                <li> Directions/Contact Page </li>
+                <li>Casa Ybel Island Beach Hotel </li>
+                <li>3431 Gulfview Drive </li>
+                <li>Ybel Island, FL 33957 </li>
+                <li>Book online or call: (800) 221-6577 </li>
+              </ul>
             </dd> <br>
 
           </div>
@@ -64,7 +67,23 @@
           <div class="col-sm-6">
 
             <!-- firstMap -->
-            <div align="left" id="firstMap" class="mapouter"><div class="gmap_canvas"><iframe width="500" height="330" id="gmap_canvas" src="https://maps.google.com/maps?q=casa%20ybel%20hotel&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><style>.mapouter{text-align:left;height:300px;width:400px;}.gmap_canvas {overflow:hidden;background:none!important;height:800px;width:1200px;}</style></div>
+            <div align="left" id="firstMap" class="mapouter medium-image">
+              <div class="gmap_canvas"><iframe width="500" height="330" id="gmap_canvas" src="https://maps.google.com/maps?q=casa%20ybel%20hotel&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
+              <style>
+                .mapouter {
+                  text-align: left;
+                  height: 300px;
+                  width: 400px;
+                }
+
+                .gmap_canvas {
+                  overflow: hidden;
+                  background: none !important;
+                  height: 800px;
+                  width: 1200px;
+                }
+              </style>
+            </div>
 
           </div>
           <div class="col-sm-6">
@@ -74,12 +93,14 @@
             <dd>Hotel Fax: (297) 297-4720 </dd>
             <dt> Directions from SW International Airport </dt>
             <dd>
-              <li>Distance: 20.5 MI/32.99 KM EAST to Hotel </li>
-              <li> Taxi Charge (one way): $60.00 USD </li>
-              <li> Time by Taxi: 40 minutes </li>
-              <li> Take a right on Treeline. Take a left onto Murtaugh. Take a left onto
-                Grouper. Cross over the Ybel Causeway. Take a right onto Gulfview- hotel
-                straight ahead. </li>
+              <ul>
+                <li>Distance: 20.5 MI/32.99 KM EAST to Hotel </li>
+                <li> Taxi Charge (one way): $60.00 USD </li>
+                <li> Time by Taxi: 40 minutes </li>
+                <li> Take a right on Treeline. Take a left onto Murtaugh. Take a left onto
+                  Grouper. Cross over the Ybel Causeway. Take a right onto Gulfview- hotel
+                  straight ahead. </li>
+              </ul>
             </dd>
 
           </div>
@@ -88,13 +109,14 @@
     </div> <br> <br>
 
     <footer>
-      <a href="index.html" >Home </a>&nbsp;|
-      <a href="rooms.html" >Rooms </a>&nbsp;|
-      <a href="dining.html" >Dining </a>&nbsp;|
+      <a href="index.html">Home </a>&nbsp;|
+      <a href="rooms.html">Rooms </a>&nbsp;|
+      <a href="dining.html">Dining </a>&nbsp;|
       <a href="amenities.html">Amenities </a>&nbsp;|
       <a href="directions/contact.html">Directions/Contact </a>&nbsp;
     </footer>
 
   </div>
 </body>
+
 </html>
